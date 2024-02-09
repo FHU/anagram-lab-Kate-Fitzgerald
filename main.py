@@ -1,6 +1,6 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def anagram(input1,input2):
-    if input1 or input2 == ' ':
+    if input1.isspace() or input2.isspace():
         return False
     
     input1 = input1.upper().strip()
