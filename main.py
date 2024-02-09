@@ -1,5 +1,8 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def anagram(input1,input2):
+    if input1 or input2 == ' ':
+        return False
+    
     input1 = input1.upper().strip()
     input1_split = list(input1)
     
